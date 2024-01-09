@@ -13,15 +13,15 @@
 
 '''-----> Image_Label '''
 
-# from tkinter import *
-# top=Tk()
-# top.geometry('900x850')
-# top.minsize(200,150)
-# top.maxsize(1100,1050)
-# photo=PhotoImage(file='images\youtube.png')
-# label1=Label(top,image=photo)
-# label1.pack()
-# top.mainloop()
+from tkinter import *
+top=Tk()
+top.geometry('900x850')
+top.minsize(200,150)
+top.maxsize(1100,1050)
+photo=PhotoImage(file='images\youtube.png')
+label1=Label(top,image=photo)
+label1.pack()
+top.mainloop()
 
 
 
